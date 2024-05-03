@@ -124,7 +124,7 @@ USE_TZ = True
 # Configuración de archivos estáticos
 STATIC_URL = '/staticfiles/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'Restaurante_Sabor_Express', 'static'),
+    os.path.join(BASE_DIR, 'Restaurante_Sabor_Express', 'staticfiles'),
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
