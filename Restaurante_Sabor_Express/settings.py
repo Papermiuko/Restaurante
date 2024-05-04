@@ -123,7 +123,7 @@ USE_TZ = True
 
 # Configuración de archivos estáticos
 STATIC_URL = '/static/'
-STATICFILES = [
+STATICFILES_DIR = [
     os.path.join(BASE_DIR, 'Restaurante_Sabor_Express', 'static'),
 ]
 
