@@ -123,7 +123,7 @@ USE_TZ = True
 
 # Configuración de archivos estáticos
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/fonse/fonse.pythonanywhere.com/static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'Restaurante_Sabor_Express', 'static')
 
 
 
